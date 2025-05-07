@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REMAX 507 - Bienes Raíces Premium en Panamá</title>
+  <link rel="stylesheet" href="diseño.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">REMAX <span>507</span></div>
+        <ul class="menu">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#">Propiedades</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('imagenes/hero1.jpg');">
+        <div class="container">
+          <h1>Lujo contemporáneo en cada detalle</h1>
+          <p>Descubre propiedades exclusivas en las mejores ubicaciones de Panamá</p>
+          <a href="#" class="btn btn-primary">Explorar propiedades</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('imagenes/hero2.jpg');">
+        <div class="container">
+          <h1>Tu visión, nuestra misión</h1>
+          <p>Asesoría personalizada para encontrar tu hogar ideal</p>
+          <a href="#" class="btn btn-primary">Agendar cita</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    <div class="search-box">
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <select>
+              <option value="">Tipo de propiedad</option>
+              <option value="casa">Casa</option>
+              <option value="apartamento">Apartamento</option>
+              <option value="terreno">Terreno</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select>
+              <option value="">Ubicación</option>
+              <option value="panama-city">Panamá City</option>
+              <option value="costa-del-sol">Costa del Sol</option>
+              <option value="punta-pacifica">Punta Pacífica</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select>
+              <option value="">Rango de precio</option>
+              <option value="100-200">$100,000 - $200,000</option>
+              <option value="200-500">$200,000 - $500,000</option>
+              <option value="500+">$500,000+</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-search"><i class="fas fa-search"></i> Buscar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-properties">
+    <div class="container">
+      <div class="section-header">
+        <h2>Propiedades Destacadas</h2>
+        <p>Selección exclusiva de las mejores propiedades en el mercado</p>
+      </div>
+      <div class="properties-grid">
+        <div class="property-card">
+          <div class="property-image">
+            <img src="imagenes/nogal.jpg" alt="Residencias Nogal">
+            <div class="property-badge">Nuevo</div>
+          </div>
+          <div class="property-details">
+            <h3>Residencias Nogal</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Punta Pacífica, Panamá</p>
+            <div class="features">
+              <span><i class="fas fa-bed"></i> 3</span>
+              <span><i class="fas fa-bath"></i> 2.5</span>
+              <span><i class="fas fa-vector-square"></i> 180m²</span>
+            </div>
+            <div class="price">$450,000</div>
+            <a href="#" class="btn btn-outline">Ver detalles</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <img src="imagenes/altos.jpg" alt="Altos del Este">
+            <div class="property-badge">Exclusivo</div>
+          </div>
+          <div class="property-details">
+            <h3>Altos del Este</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Costa del Este, Panamá</p>
+            <div class="features">
+              <span><i class="fas fa-bed"></i> 4</span>
+              <span><i class="fas fa-bath"></i> 3</span>
+              <span><i class="fas fa-vector-square"></i> 250m²</span>
+            </div>
+            <div class="price">$690,000</div>
+            <a href="#" class="btn btn-outline">Ver detalles</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <img src="imagenes/propiedad3.jpg" alt="Sky Residence">
+            <div class="property-badge">Vendido</div>
+          </div>
+          <div class="property-details">
+            <h3>Sky Residence</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Brisas del Golf, Panamá</p>
+            <div class="features">
+              <span><i class="fas fa-bed"></i> 2</span>
+              <span><i class="fas fa-bath"></i> 2</span>
+              <span><i class="fas fa-vector-square"></i> 120m²</span>
+            </div>
+            <div class="price">$320,000</div>
+            <a href="#" class="btn btn-outline">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary">Ver todas las propiedades</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nuestros Servicios</h2>
+        <p>Experiencia y conocimiento para todas tus necesidades inmobiliarias</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <h3>Compra y Venta</h3>
+          <p>Asesoramiento experto para encontrar la propiedad perfecta o vender al mejor precio.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-hand-holding-usd"></i>
+          </div>
+          <h3>Inversiones</h3>
+          <p>Oportunidades de inversión con los mejores rendimientos en el mercado inmobiliario.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3>Desarrollo</h3>
+          <p>Proyectos exclusivos con diseños innovadores y acabados de lujo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Testimonios</h2>
+        <p>Lo que nuestros clientes dicen sobre nosotros</p>
+      </div>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <div class="quote">"REMAX 507 hizo que el proceso de compra de mi primera casa fuera sencillo y sin estrés. Su conocimiento del mercado es incomparable."</div>
+          <div class="author">
+            <img src="imagenes/cliente1.jpg" alt="Carlos M.">
+            <div class="author-info">
+              <h4>Carlos M.</h4>
+              <p>Comprador, Residencias Nogal</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="quote">"Vendimos nuestra propiedad en tiempo récord y por encima del precio esperado. ¡Altamente recomendados!"</div>
+          <div class="author">
+            <img src="imagenes/cliente2.jpg" alt="María L.">
+            <div class="author-info">
+              <h4>María L.</h4>
+              <p>Vendedora, Altos del Este</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots"></div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contáctenos</h2>
+          <p>Estamos aquí para ayudarte a encontrar tu propiedad ideal.</p>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Torre B, Piso 23, Costa del Este, Panamá</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone-alt"></i>
+            <p>+507 123-4567</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@remax507.com</p>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Nombre completo" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Correo electrónico" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Teléfono">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>REMAX 507</h3>
+          <p>Líderes en bienes raíces en Panamá con más de 15 años de experiencia en el mercado.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Enlaces rápidos</h3>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Propiedades</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contacto</h3>
+          <p>Torre B, Piso 23<br>Costa del Este, Panamá</p>
+          <p>info@remax507.com</p>
+          <p>+507 123-4567</p>
+        </div>
+        <div class="footer-col">
+          <h3>Boletín informativo</h3>
+          <p>Suscríbete para recibir nuestras últimas propiedades.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 REMAX 507. Todos los derechos reservados.</p>
+        <div class="legal-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
