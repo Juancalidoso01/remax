@@ -17,10 +17,10 @@
         <div class="logo">REMAX <span>507</span></div>
         <ul class="menu">
           <li><a href="#" class="active">Inicio</a></li>
-          <li><a href="#">Propiedades</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#featured-properties">Propiedades</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
         <div class="mobile-menu">
           <i class="fas fa-bars"></i>
@@ -31,18 +31,18 @@
 
   <section class="hero">
     <div class="hero-slider">
-      <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('imagenes/hero1.jpg');">
+      <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
         <div class="container">
           <h1>Lujo contemporáneo en cada detalle</h1>
           <p>Descubre propiedades exclusivas en las mejores ubicaciones de Panamá</p>
-          <a href="#" class="btn btn-primary">Explorar propiedades</a>
+          <a href="#featured-properties" class="btn btn-primary">Explorar propiedades</a>
         </div>
       </div>
-      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('imagenes/hero2.jpg');">
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
         <div class="container">
           <h1>Tu visión, nuestra misión</h1>
           <p>Asesoría personalizada para encontrar tu hogar ideal</p>
-          <a href="#" class="btn btn-primary">Agendar cita</a>
+          <a href="#contact" class="btn btn-primary">Agendar cita</a>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
     </div>
     <div class="search-box">
       <div class="container">
-        <form>
+        <form id="property-search">
           <div class="form-group">
             <select>
               <option value="">Tipo de propiedad</option>
@@ -83,7 +83,7 @@
     </div>
   </section>
 
-  <section class="featured-properties">
+  <section id="featured-properties" class="featured-properties">
     <div class="container">
       <div class="section-header">
         <h2>Propiedades Destacadas</h2>
@@ -92,7 +92,7 @@
       <div class="properties-grid">
         <div class="property-card">
           <div class="property-image">
-            <img src="imagenes/nogal.jpg" alt="Residencias Nogal">
+            <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Residencias Nogal" loading="lazy">
             <div class="property-badge">Nuevo</div>
           </div>
           <div class="property-details">
@@ -110,7 +110,7 @@
         
         <div class="property-card">
           <div class="property-image">
-            <img src="imagenes/altos.jpg" alt="Altos del Este">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Altos del Este" loading="lazy">
             <div class="property-badge">Exclusivo</div>
           </div>
           <div class="property-details">
@@ -128,7 +128,7 @@
         
         <div class="property-card">
           <div class="property-image">
-            <img src="imagenes/propiedad3.jpg" alt="Sky Residence">
+            <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Sky Residence" loading="lazy">
             <div class="property-badge">Vendido</div>
           </div>
           <div class="property-details">
@@ -150,7 +150,7 @@
     </div>
   </section>
 
-  <section class="services">
+  <section id="services" class="services">
     <div class="container">
       <div class="section-header">
         <h2>Nuestros Servicios</h2>
@@ -182,6 +182,22 @@
     </div>
   </section>
 
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>Sobre REMAX 507</h2>
+          <p>Con más de 15 años de experiencia en el mercado inmobiliario panameño, nos hemos consolidado como líderes en la venta y asesoría de propiedades premium.</p>
+          <p>Nuestro equipo de profesionales altamente capacitados está comprometido con brindar un servicio personalizado y de excelencia.</p>
+          <a href="#contact" class="btn btn-primary">Conoce más sobre nosotros</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Equipo REMAX 507" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="testimonials">
     <div class="container">
       <div class="section-header">
@@ -192,7 +208,7 @@
         <div class="testimonial active">
           <div class="quote">"REMAX 507 hizo que el proceso de compra de mi primera casa fuera sencillo y sin estrés. Su conocimiento del mercado es incomparable."</div>
           <div class="author">
-            <img src="imagenes/cliente1.jpg" alt="Carlos M.">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos M." loading="lazy">
             <div class="author-info">
               <h4>Carlos M.</h4>
               <p>Comprador, Residencias Nogal</p>
@@ -202,7 +218,7 @@
         <div class="testimonial">
           <div class="quote">"Vendimos nuestra propiedad en tiempo récord y por encima del precio esperado. ¡Altamente recomendados!"</div>
           <div class="author">
-            <img src="imagenes/cliente2.jpg" alt="María L.">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María L." loading="lazy">
             <div class="author-info">
               <h4>María L.</h4>
               <p>Vendedora, Altos del Este</p>
@@ -214,7 +230,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section id="contact" class="contact">
     <div class="container">
       <div class="contact-grid">
         <div class="contact-info">
@@ -240,7 +256,7 @@
           </div>
         </div>
         <div class="contact-form">
-          <form>
+          <form id="contact-form">
             <div class="form-group">
               <input type="text" placeholder="Nombre completo" required>
             </div>
@@ -271,10 +287,10 @@
           <h3>Enlaces rápidos</h3>
           <ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Propiedades</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#featured-properties">Propiedades</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -303,7 +319,54 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    // JavaScript básico para funcionalidad
+    document.addEventListener('DOMContentLoaded', function() {
+      // Menú móvil
+      const mobileMenuBtn = document.querySelector('.mobile-menu');
+      const menu = document.querySelector('.menu');
+      
+      mobileMenuBtn.addEventListener('click', function() {
+        menu.classList.toggle('active');
+      });
+      
+      // Validación de formulario de contacto
+      const contactForm = document.getElementById('contact-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+          contactForm.reset();
+        });
+      }
+      
+      // Validación de formulario de búsqueda
+      const searchForm = document.getElementById('property-search');
+      if (searchForm) {
+        searchForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          alert('Búsqueda realizada. Mostrando resultados...');
+        });
+      }
+      
+      // Smooth scrolling para enlaces internos
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
-
 
